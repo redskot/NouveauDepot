@@ -13,7 +13,7 @@ services:
       - db  # Le service 'web' dépend du service 'db' (PostgreSQL)
 
   db:
-    image: postgres:13  # Image Docker de PostgreSQL
+    image: postgres:17  # Image Docker de PostgreSQL
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
