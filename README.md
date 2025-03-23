@@ -46,7 +46,7 @@ This project includes:
 ---
 
 ## 📁 Project Structure
-
+```bash
 NouveauDepot/
 ├── app.py                 # Main Flask application
 ├── test.py                # Unit tests
@@ -61,7 +61,7 @@ NouveauDepot/
 ├── renovate.json          # Renovate configuration
 ├── .gitignore             # Git & secrets exclusions
 └── README.md              # This file
-
+```
 
 
 
